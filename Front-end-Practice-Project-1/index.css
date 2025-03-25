@@ -30,7 +30,13 @@ nav a{
 .Try{
     color: blue;
 }
+.other-nav-links{
+    position: fixed;
+    border-bottom: #ccc 1px solid;
+    border-left: #ccc 1px solid;
+}
 .other-nav-links a{
+    padding: 20px;
     text-decoration: none;
     color: black;
     font-weight: 700;
@@ -57,4 +63,17 @@ nav a{
     font-size: 15px;
     margin-top: 30px;
 }
-
+.image-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.image-container img {
+    margin: 10px;
+}
+.img1{
+    position: relative;
+    left: 100px;
+}
