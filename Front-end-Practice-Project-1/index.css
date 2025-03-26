@@ -106,7 +106,108 @@ nav a{
     height: 500;
       width :900
 }
-
+.section-5{
+    margin-top: 50px ;
+    margin-bottom: 60px;
+}
+.image2{
+    height: 400px;
+    position: relative;
+    left: 400px;
+}
+.image1{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    right: 500px;
+}
+.image3{
+    height: 300px;
+    width: 450px;
+    position: relative;
+    left: 900px;
+    bottom: 420px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.footer {
+    padding: 40px 0;
+    border-top: 1px solid #ddd;
+}
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.footer a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.footer .newsletter input[type="email"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+}
+.footer .newsletter button {
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer .bottom-links {
+    margin-top: 20px;
+    font-size: 0.875rem;
+}
+.footer .bottom-links a {
+    margin-right: 15px;
+    color: #000;
+}
+.footer .bottom-links a:hover {
+    text-decoration: underline;
+}
+.footer .made-in-berlin {
+    text-align: right;
+    font-size: 0.875rem;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+    .footer .newsletter input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .footer .newsletter button {
+        width: 100%;
+    }
+    .footer .made-in-berlin {
+        text-align: left;
+        margin-top: 20px;
+    }
+}
 @media screen  and (max-width: 768px) {
     nav{
         display: flex;
@@ -215,4 +316,26 @@ nav a{
         font-size: 13px;
 
     }
+    .image2 {
+        height: 200px;
+        position: relative;
+        left: 30px; 
+    }
+
+    .image1 {
+        height: 120px;
+        width: 120px; /* Make it responsive */
+        right: 340px; 
+        bottom: 120px;
+        position: relative;
+    }
+
+    .image3 {
+        height: 150px;
+        width: 150px; /* Make it responsive */
+        position: relative;
+        left: 300px;
+        bottom: 40px; /* Reset bottom positioning */
+    }
+
 }
